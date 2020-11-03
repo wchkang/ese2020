@@ -1,7 +1,8 @@
 #include <funcs.h>
 #include <stdio.h>
 
-void foo(void)
+void foo(int num)
 {
-    printf("foo\n");
+    printf("foo #d\n", num);
+    printf("foo is a wonderful function\n");
 }
